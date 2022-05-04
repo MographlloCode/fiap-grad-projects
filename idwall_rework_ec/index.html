@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuários - IdWall</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/presets.css">
+</head>
+<body>
+    <header class="users-header-container spacing-large">
+        <div class="logo-container">
+            <img class="logo" src="assets/imgs/idwall_logo.svg">
+        </div>
+        <div class="page-title-container">
+            <h1 class="page-title">Usuários</h1>
+            <h2 class="page-sub-title">1547 usuários</h2>
+        </div>
+        <div class="search-bar-container">
+            <input class="search-bar-area spacing-small" type="text" placeholder="Faça sua pesquisa aqui">
+            <button class="search-bar-btn"><i class="fa-solid fa-magnifying-glass gray-50"></i></button>
+        </div>
+    </header>
+    <main class="users-main-container">
+        <div class="pre-table-container spacing-xLarge">
+            <div id="addUser" class="add-user-container">
+                <img class="add-user-img" src="assets/imgs/add_user.svg">
+                <div class="add-user-legend">
+                    <h3>Adicionar Usuário</h3>
+                </div>
+            </div>
+            <div id="deactivatedCircle" class="deactivated-users-container">
+                <h3 class="deactivated-users-legend">Usuários Desativados</h3>
+                <div id="toActiveCircle" class="deactivated-users-btn"></div>
+            </div>
+        </div>
+        <div class="users-main-content">
+            <div id="splitMenu" class="menu-split-container">
+                <div class="menu-white-dot"></div>
+                <div class="menu-white-dot"></div>
+                <div class="menu-white-dot"></div>
+            </div>
+            <div id="menuContainer" class="menu-container">
+                <div id="closureBtn" class="menu-closure">
+                    <img class="spacing-small" src="assets/imgs/menu_closure_btn.svg">
+                </div>
+                <div class="menu-items">
+                    <h5 class="spacing-small"><a href="#">Protocolos</a></h5>
+                    <h5 class="spacing-small"><a href="#">Documentos</a></h5>
+                    <h5 class="spacing-small active"><a href="#">Usuários</a></h5>
+                    <h5 class="spacing-small"><a href="#">Fontes</a></h5>
+                    <h5 class="spacing-small"><a href="#">Matrizes</a></h5>
+                    <h5 class="spacing-small"><a href="#">Regras</a></h5>
+                    <h5 class="spacing-small"><a href="#">Atributos</a></h5>
+                    <h5 class="spacing-small"><a href="monitor.html">Monitor</a></h5>
+                    <h5 class="spacing-small"><a href="#">Organizações</a></h5>
+                </div>
+            </div>
+            <div class="user-table-container">
+                <table class="user-table">
+                    <thead class="user-table-head">
+                        <tr class="user-table-head-row gray-700">
+                            <th class="spacing-ggLarge-wout-top">Id</th>
+                            <th class="spacing-ggLarge-wout-top">Cliente</th>
+                            <th class="spacing-ggLarge-wout-top">Protocolos</th>
+                            <th class="spacing-ggLarge-wout-top">Email</th>
+                            <th class="spacing-ggLarge-wout-top">Acesso</th>
+                            <th class="spacing-ggLarge-wout-top">Backoffice</th>
+                            <th class="spacing-ggLarge-wout-top">IdNetwork</th>
+                        </tr>
+                    </thead>
+                    <tbody class="user-table-body">
+                        <tr class="user-table-body-row">
+                            <td class="table-first-line">1</td>
+                            <td>12345678901</td>
+                            <td>1234567890</td>
+                            <td>cliente@gmail.com</td>
+                            <td>Sim</td>
+                            <td>Não</td>
+                            <td>Não</td>
+                        </tr>
+                        <tr>
+                            <td class="user-table-content">2</td>
+                            <td>12345678901</td>
+                            <td>1234567890</td>
+                            <td>cliente@gmail.com</td>
+                            <td>Sim</td>
+                            <td>Não</td>
+                            <td>Não</td>
+                        </tr>
+                        <tr>
+                            <td class="user-table-content">3</td>
+                            <td>158749</td>
+                            <td>0</td>
+                            <td>cliente@gmail.com</td>
+                            <td>Sim</td>
+                            <td>Não</td>
+                            <td>Não</td>
+                        </tr>
+                        <tr>
+                            <td class="user-table-content">4</td>
+                            <td>158749</td>
+                            <td>0</td>
+                            <td>cliente@gmail.com</td>
+                            <td>Sim</td>
+                            <td>Não</td>
+                            <td>Não</td>
+                        </tr>
+                        <tr>
+                            <td class="user-table-content">5</td>
+                            <td>158749</td>
+                            <td>0</td>
+                            <td>cliente@gmail.com</td>
+                            <td>Sim</td>
+                            <td>Não</td>
+                            <td>Não</td>
+                        </tr>
+                        <tr>
+                            <td class="user-table-content">6</td>
+                            <td>158749</td>
+                            <td>0</td>
+                            <td>cliente@gmail.com</td>
+                            <td>Sim</td>
+                            <td>Não</td>
+                            <td>Não</td>
+                        </tr>
+                        <tr>
+                            <td class="user-table-content">7</td>
+                            <td>158749</td>
+                            <td>0</td>
+                            <td>cliente@gmail.com</td>
+                            <td>Sim</td>
+                            <td>Não</td>
+                            <td>Não</td>
+                        </tr>
+                        <tr>
+                            <td class="user-table-content">8</td>
+                            <td>158749</td>
+                            <td>0</td>
+                            <td>cliente@gmail.com</td>
+                            <td>Sim</td>
+                            <td>Não</td>
+                            <td>Não</td>
+                        </tr>
+                        <tr>
+                            <td class="user-table-content">9</td>
+                            <td>158749</td>
+                            <td>0</td>
+                            <td>cliente@gmail.com</td>
+                            <td>Sim</td>
+                            <td>Não</td>
+                            <td>Não</td>
+                        </tr>
+                        <tr>
+                            <td class="user-table-content">10</td>
+                            <td>158749</td>
+                            <td>0</td>
+                            <td>cliente@gmail.com</td>
+                            <td>Sim</td>
+                            <td>Não</td>
+                            <td>Não</td>
+                        </tr>
+                        <tr>
+                            <td class="user-table-content">11</td>
+                            <td>158749</td>
+                            <td>0</td>
+                            <td>cliente@gmail.com</td>
+                            <td>Sim</td>
+                            <td>Não</td>
+                            <td>Não</td>
+                        </tr>
+                        <tr>
+                            <td class="user-table-content">12</td>
+                            <td>158749</td>
+                            <td>0</td>
+                            <td>cliente@gmail.com</td>
+                            <td>Sim</td>
+                            <td>Não</td>
+                            <td>Não</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- <div class="user-table-container">
+                <table class="user-table">
+                    <thead class="user-table-head">
+                        <tr class="user-table-head-row gray-700">
+                            <th class="spacing-ggLarge-wout-top">Id</th>
+                            <th class="spacing-ggLarge-wout-top">Cliente</th>
+                            <th class="spacing-ggLarge-wout-top">Protocolos</th>
+                            <th class="spacing-ggLarge-wout-top">Email</th>
+                            <th class="spacing-ggLarge-wout-top">Acesso</th>
+                            <th class="spacing-ggLarge-wout-top">Backoffice</th>
+                            <th class="spacing-ggLarge-wout-top">IdNetwork</th>
+                        </tr>
+                    </thead>
+                    <tbody class="user-table-body">
+                        <tr class="user-table-body-row">
+                            <td class="table-first-line">13</td>
+                            <td>12345678901</td>
+                            <td>1234567890</td>
+                            <td>cliente@gmail.com</td>
+                            <td>Sim</td>
+                            <td>Não</td>
+                            <td>Não</td>
+                        </tr>
+                        <tr>
+                            <td class="user-table-content">14</td>
+                            <td>12345678901</td>
+                            <td>1234567890</td>
+                            <td>cliente@gmail.com</td>
+                            <td>Sim</td>
+                            <td>Não</td>
+                            <td>Não</td>
+                        </tr>
+                        <tr>
+                            <td class="user-table-content">15</td>
+                            <td>158749</td>
+                            <td>0</td>
+                            <td>cliente@gmail.com</td>
+                            <td>Sim</td>
+                            <td>Não</td>
+                            <td>Não</td>
+                        </tr>
+                        <tr>
+                            <td class="user-table-content">16</td>
+                            <td>158749</td>
+                            <td>0</td>
+                            <td>cliente@gmail.com</td>
+                            <td>Sim</td>
+                            <td>Não</td>
+                            <td>Não</td>
+                        </tr>
+                        <tr>
+                            <td class="user-table-content">17</td>
+                            <td>158749</td>
+                            <td>0</td>
+                            <td>cliente@gmail.com</td>
+                            <td>Sim</td>
+                            <td>Não</td>
+                            <td>Não</td>
+                        </tr>
+                        <tr>
+                            <td class="user-table-content">18</td>
+                            <td>158749</td>
+                            <td>0</td>
+                            <td>cliente@gmail.com</td>
+                            <td>Sim</td>
+                            <td>Não</td>
+                            <td>Não</td>
+                        </tr>
+                        <tr>
+                            <td class="user-table-content">19</td>
+                            <td>158749</td>
+                            <td>0</td>
+                            <td>cliente@gmail.com</td>
+                            <td>Sim</td>
+                            <td>Não</td>
+                            <td>Não</td>
+                        </tr>
+                        <tr>
+                            <td class="user-table-content">20</td>
+                            <td>158749</td>
+                            <td>0</td>
+                            <td>cliente@gmail.com</td>
+                            <td>Sim</td>
+                            <td>Não</td>
+                            <td>Não</td>
+                        </tr>
+                        <tr>
+                            <td class="user-table-content">21</td>
+                            <td>158749</td>
+                            <td>0</td>
+                            <td>cliente@gmail.com</td>
+                            <td>Sim</td>
+                            <td>Não</td>
+                            <td>Não</td>
+                        </tr>
+                        <tr>
+                            <td class="user-table-content">22</td>
+                            <td>158749</td>
+                            <td>0</td>
+                            <td>cliente@gmail.com</td>
+                            <td>Sim</td>
+                            <td>Não</td>
+                            <td>Não</td>
+                        </tr>
+                        <tr>
+                            <td class="user-table-content">23</td>
+                            <td>158749</td>
+                            <td>0</td>
+                            <td>cliente@gmail.com</td>
+                            <td>Sim</td>
+                            <td>Não</td>
+                            <td>Não</td>
+                        </tr>
+                        <tr>
+                            <td class="user-table-content">24</td>
+                            <td>158749</td>
+                            <td>0</td>
+                            <td>cliente@gmail.com</td>
+                            <td>Sim</td>
+                            <td>Não</td>
+                            <td>Não</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div> -->
+        </div>
+    </main>
+    <footer class="users-footer-container spacing-xLarge">
+        <div class="spacing-medium-wout-top">
+            <img src="assets/imgs/light_back_arrow.svg">
+        </div>
+        <div class="page-selector-container">
+            <div class="page-selected-bar"></div>
+            <h4 class="gray-900">1</h4>
+        </div>
+        <div class="page-selector-container">
+            <div class="page-not-selected-bar"></div>
+            <h4 class="blue-100">2</h4>
+        </div>
+        <div class="page-selector-container">
+            <div class="page-not-selected-bar"></div>
+            <h4 class="blue-100">3</h4>
+        </div>
+        <div class="page-selector-container">
+            <div class="page-not-selected-bar"></div>
+            <h4 class="blue-100">4</h4>
+        </div>
+        <div class="page-selector-container">
+            <div class="page-not-selected-bar"></div>
+            <h4 class="blue-100">5</h4>
+        </div>
+        <div class="spacing-medium-wout-top">
+            <img class="arrow" src="assets/imgs/dark_forward_arrow.svg">
+        </div>
+        <div id="loginButton" class="login-button-container">
+            <div class="login-button">
+                <h4 class="spacing-small-wout-top">Login</h4>
+                <img src="assets/imgs/white_arrow_login.svg">
+            </div>
+        </div>
+        <div id="loginContainer" class="login-container">
+            <div class="login-box-container">
+                <div  id="exitLoginButton" class="login-closure">
+                    <img class="login-closure-btn" src="assets/imgs/login_closure_btn.svg">
+                </div>
+                <h1 class="login-title">Login</h1>
+                <input class="login-form-box" type="text" placeholder="Identificação">
+                <input class="login-form-box" type="password" placeholder="Senha"> 
+                <a href="monitor.html"><button class="login-btn"><span style="color: #50f;"><i class="fa-2xl fa-solid fa-check"></i></span></button></a>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/e14859852e.js" crossorigin="anonymous"></script>
+</body>
+</html>

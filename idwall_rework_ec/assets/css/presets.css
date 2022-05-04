@@ -1,0 +1,399 @@
+/* Presets Idwall Spacing */
+
+.spacing-tiny{
+    padding: 4px;
+}
+
+.spacing-small{
+    padding: 8px;
+}
+
+.spacing-medium{
+    padding: 16px;
+}
+
+.spacing-large{
+    padding: 24px;
+}
+
+.spacing-xLarge{
+    padding: 32px;
+}
+
+.spacing-xxLarge{
+    padding: 40px;
+}
+
+.spacing-xxxLarge{
+    padding: 48px;
+}
+
+.spacing-gLarge{
+    padding: 56px;
+}
+
+.spacing-ggLarge{
+    padding: 64px;
+}
+
+/* Preset Spacing Students */
+
+.spacing-tiny-wout-top{
+    padding: 0px 4px;
+}
+
+.spacing-small-wout-top{
+    padding: 0px 8px;
+}
+
+.spacing-medium-wout-top{
+    padding: 0px 16px;
+}
+
+.spacing-large-wout-top{
+    padding: 0px 24px;
+}
+
+.spacing-xLarge-wout-top{
+    padding: 0px 32px;
+}
+
+.spacing-xxLarge-wout-top{
+    padding: 0px 40px;
+}
+
+.spacing-xxxLarge-wout-top{
+    padding: 0px 48px;
+}
+
+.spacing-gLarge-wout-top{
+    padding: 0px 56px;
+}
+
+.spacing-ggLarge-wout-top{
+    padding: 0px 64px;
+}
+
+/* Purple Presets */
+
+.purple-50 {
+    color: #f3f2ff;
+}
+
+.purple-100 {
+    color: #c8c2ff;
+}
+
+.purple-200 {
+    color: #a491ff;
+}
+
+.purple-300 {
+    color: #8561ff;
+}
+
+.purple-400 {
+    color: #6b31ff;
+}
+
+.purple-500 {
+    color: #50f;
+}
+
+.purple-600 {
+    color: #4100cf;
+}
+
+.purple-700 {
+    color: #30009f;
+}
+
+.purple-800 {
+    color: #210070;
+}
+
+.purple-900 {
+    color: #130040;
+}
+
+/* Gray Presets */
+
+.gray-50 {
+    color: #fff;
+}
+
+.gray-100 {
+    color: #fafafa;
+}
+
+.gray-200 {
+    color: #f5f5f5;
+}
+
+.gray-300 {
+    color: #e8e8e8;
+}
+
+.gray-400 {
+    color: #d9d9d9;
+}
+
+.gray-500 {
+    color: #bfbfbf;
+}
+
+.gray-600 {
+    color: #8c8c8c;
+}
+
+.gray-700 {
+    color: #595959;
+}
+
+.gray-800 {
+    color: #262626;
+}
+
+.gray-900 {
+    color: #000;
+}
+
+
+/* Green Presets */
+
+.green-50 {
+    color: #f6ffed;
+}
+
+.green-100 {
+    color: #d9f7be;
+}
+
+.green-200 {
+    color: #b7eb8f;
+}
+
+.green-300 {
+    color: #95de64;
+}
+
+.green-400 {
+    color: #73d13d;
+}
+
+.green-500 {
+    color: #52c41a;
+}
+
+.green-600 {
+    color: #389e0d;
+}
+
+.green-700 {
+    color: #237804;
+}
+
+.green-800 {
+    color: #135200;
+}
+
+.green-900 {
+    color: #092b00;
+}
+
+/* Red Presets */
+
+.red-50 {
+    color:  #fff1f0;
+}
+
+.red-100 {
+    color: #ffccc7;
+}
+
+.red-200 {
+    color: #ffa39e;
+}
+
+.red-300 {
+    color: #ff7875;
+}
+
+.red-400 {
+    color: #ff4d4f;
+}
+
+.red-500 {
+    color: #f5222d;
+}
+
+.red-600 {
+    color: #cf1322;
+}
+
+.red-700 {
+    color: #a8071a;
+}
+
+.red-800 {
+    color: #820014;
+}
+
+.red-900 {
+    color: #5c0011;
+}
+
+/* Yellow Presets */
+
+.yellow-50 {
+    color:  #fffbe6;
+}
+
+.yellow-100 {
+    color: #fff1b8;
+}
+
+.yellow-200 {
+    color: #ffe58f;
+}
+
+.yellow-300 {
+    color: #ffd666;
+}
+
+.yellow-400 {
+    color: #ffc53d;
+}
+
+.yellow-500 {
+    color: #faad14;
+}
+
+.yellow-600 {
+    color: #d48806;
+}
+
+.yellow-700 {
+    color: #ad6800;
+}
+
+.yellow-800 {
+    color: #874d00;
+}
+
+.yellow-900 {
+    color: #613400;
+}
+
+/* Blue Presets */
+
+.blue-50 {
+    color:  #f0f5ff;
+}
+
+.blue-100 {
+    color: #d6e4ff;
+}
+
+.blue-200 {
+    color: #adc6ff;
+}
+
+.blue-300 {
+    color: #85a5ff;
+}
+
+.blue-400 {
+    color: #597ef7;
+}
+
+.blue-500 {
+    color: #2f54eb;
+}
+
+.blue-600 {
+    color: #1d39c4;
+}
+
+.blue-700 {
+    color: #10239e;
+}
+
+.blue-800 {
+    color: #061178;
+}
+
+.blue-900 {
+    color: #030852;
+}
+
+/* Most Used Colors Presets */
+
+.primary-color {
+    color: #50f;
+}
+
+.secondary-color {
+    color: #fff;
+}
+
+.success-color {
+    color: 52c41a;
+}
+
+.error-color {
+    color: #f5222d;
+}
+
+.warning-color {
+    color: #faad14;
+}
+
+.main-background {
+    color: #fafafa;
+}
+
+/* Monitor Status Colors */
+
+.blue-bg {
+    background-color: #597EF7;
+}
+
+.laranja-bg {
+    background-color: #FAAD14;
+}
+
+.verde-bg {
+    background-color: #52C41A;
+}
+
+.vermelho-bg {
+    background-color: #F5222D;
+}
+
+/* Purple BG Presets */
+
+.purple-one{
+    background-color: #130040;
+}
+
+.purple-two{
+    background-color: #210070;
+}
+
+.purple-three {
+    background-color: #30009F;
+}
+
+.purple-four {
+    background-color: #4100CF;
+}
+
+.purple-five {
+    background-color: #A491FF;
+}
+
+.purple-six {
+    background-color: #F3F2FF;
+}
+

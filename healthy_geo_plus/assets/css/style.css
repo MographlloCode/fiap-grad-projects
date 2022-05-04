@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@media only screen and (max-width: 1026px) {
+  .divider {
+      display: none;
+  }
+
+  .login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+  }
+}
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.logo-first {
+  margin: 5vh;
+  width: 100%;
+}
+
+.main-page-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.divider {
+  border-left: 1px solid black;
+  height: 80vh;
+  margin: 15vh;
+}
+
+.login-form-container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 48px;
+  line-height: 56px;
+
+  margin-bottom: 3vh;
+}
+
+.form-box {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 36px;
+  line-height: 42px;
+
+  padding: 1.5vh;
+  margin: 2vh;
+
+  border-top: 0px solid black;
+  border-left: 0px solid black;
+  border-right: 0px solid black;
+  border-bottom: 1px solid black;
+}
+
+.remind-and-register {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: space-between;
+  justify-content: space-between;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 28px;
+
+  margin: 2vh;
+}
+
+.form-button {
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 34px;
+  line-height: 28px;
+
+  padding: 3vh 15vh;
+  margin: 4vh;
+
+  transition: all 0.1s;
+}
+
+.form-register-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 28px;
+  transition: all 0.1s;
+}
+
+.form-register-link:hover {
+  font-weight: 400;
+}
+
+.form-button:hover {
+  border: 1.5px solid #000000;
+  font-weight: 400;
+}
+
+/* Dashboard */
+
+.dashboard-header-container {
+  width: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2vh 4vh;
+}
+
+.dashboard-header-logo {
+  width: 15vh;
+}
+
+.dashboard-header-cloud {
+  width: 10vh;
+}
+
+.dashboard-header-user {
+  width: 6vh;
+}
+
+.dashboard-weather {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 28px;
+}
+
+.dashboard-main-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex: 1;
+}
+
+.dashboard-main-section {
+  margin: 10vh;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.graph {
+  margin: 5vh;
+}
+
+.dashboard-main-info {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 150px;
+  line-height: 211px;
+}
+
+.dashboard-main-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.dashboard-footer-container {
+  width: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2vh 4vh;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 39px;
+}
+
+.dashboard-footer-location {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.dashboard-footer-globe {
+  width: 3.5vh;
+  margin-right: 0.5vh;
+}
+
+.graph-dashboard {
+  width: 100%;
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+.menu-page-container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-main-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 55px;
+  line-height: 84px;
+  margin: 3vh;
+}
+
+.register {
+  display: none;
+}
